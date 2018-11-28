@@ -10,9 +10,11 @@ import Foundation
 import Lottie
 
 protocol ViewModelProtocol {
+    var animationModel: LOTComposition? { get }
+
+    var availableHashtags: [String] { get }
     var selectedHashtag: String? { get set }
     var selectedHashtagText: String { get }
-    var animationModel: LOTComposition? { get }
 }
 
 final class ViewModel: ViewModelProtocol {
@@ -23,6 +25,14 @@ final class ViewModel: ViewModelProtocol {
     }
 
     // MARK: - ViewModelProtocol
+
+    var animationModel: LOTComposition?
+
+    var availableHashtags: [String] = [
+        "clouds",
+        "fireworks",
+        "nonexisting"
+    ]
 
     var selectedHashtag: String? {
         didSet {
@@ -41,6 +51,4 @@ final class ViewModel: ViewModelProtocol {
             return "hashtag is not selected"
         }
     }
-
-    var animationModel: LOTComposition?
 }

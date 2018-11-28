@@ -25,7 +25,6 @@ final class ServerAnimationProvider: AnimationsProviderProtocol {
 
         URLSession.shared.invalidateAndCancel()
 
-        print("url: \(animationUrl.absoluteString)")
         let task = URLSession.shared.dataTask(with: animationUrl) { (data, response, error) in
             guard error == nil, let data = data, let json = self.parseJson(from: data) else {
                 completion(nil)

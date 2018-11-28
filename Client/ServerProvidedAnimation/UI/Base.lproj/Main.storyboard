@@ -24,12 +24,12 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="VRF-Gz-K5T">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="256"/>
                                     </imageView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h0n-jq-ecO" userLabel="AnimationContainer">
-                                        <rect key="frame" x="123.5" y="64" width="128" height="128"/>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h0n-jq-ecO" userLabel="AnimationContainer">
+                                        <rect key="frame" x="59.5" y="0.0" width="256" height="256"/>
                                         <color key="backgroundColor" red="0.99903076889999998" green="0.87921422719999998" blue="0.80296558139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="128" id="U7z-ey-si0"/>
-                                            <constraint firstAttribute="width" constant="128" id="jMa-Kv-jqO"/>
+                                            <constraint firstAttribute="height" constant="256" id="U7z-ey-si0"/>
+                                            <constraint firstAttribute="width" constant="256" id="jMa-Kv-jqO"/>
                                         </constraints>
                                     </view>
                                 </subviews>

@@ -81,9 +81,7 @@ class ViewController: UIViewController {
             self.hashtagsStackView.addArrangedSubview(hashtagButton)
         }
 
-        addHashtag("clouds")
-        addHashtag("fireworks")
-        addHashtag("nonexisting")
+        self.viewModel.availableHashtags.forEach { addHashtag($0) }
 
         self.hashtagNameLabel.text = self.viewModel.selectedHashtagText
     }

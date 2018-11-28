@@ -1,5 +1,5 @@
 PODS:
-  - lottie-ios (2.5.0)
+  - lottie-ios (2.5.2)
 
 DEPENDENCIES:
   - lottie-ios
@@ -9,7 +9,7 @@ SPEC REPOS:
     - lottie-ios
 
 SPEC CHECKSUMS:
-  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
 
 PODFILE CHECKSUM: 58a9968c4eeb686c88212596a37f6d93bd0ff60e
 
