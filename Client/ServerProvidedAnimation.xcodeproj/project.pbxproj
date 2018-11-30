@@ -10,7 +10,6 @@
 		3E47A1ED21AB3BD200943E80 /* AnimationsProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A1EC21AB3BD200943E80 /* AnimationsProviderProtocol.swift */; };
 		3E47A1EF21AB52DB00943E80 /* ServerAnimationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A1EE21AB52DB00943E80 /* ServerAnimationProvider.swift */; };
 		3E47A1F221AB5A7800943E80 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A1F121AB5A7800943E80 /* ViewModel.swift */; };
-		3EAFCD4321AB089B00949E45 /* SimpleAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFCD4221AB089B00949E45 /* SimpleAnimation.json */; };
 		3EB6A12721AAEF1F00E8BF73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6A12621AAEF1F00E8BF73 /* AppDelegate.swift */; };
 		3EB6A12921AAEF1F00E8BF73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6A12821AAEF1F00E8BF73 /* ViewController.swift */; };
 		3EB6A12C21AAEF1F00E8BF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB6A12A21AAEF1F00E8BF73 /* Main.storyboard */; };
@@ -25,7 +24,6 @@
 		3E47A1EC21AB3BD200943E80 /* AnimationsProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsProviderProtocol.swift; sourceTree = "<group>"; };
 		3E47A1EE21AB52DB00943E80 /* ServerAnimationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerAnimationProvider.swift; sourceTree = "<group>"; };
 		3E47A1F121AB5A7800943E80 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		3EAFCD4221AB089B00949E45 /* SimpleAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimpleAnimation.json; sourceTree = "<group>"; };
 		3EB6A12321AAEF1F00E8BF73 /* ServerProvidedAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerProvidedAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB6A12621AAEF1F00E8BF73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EB6A12821AAEF1F00E8BF73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,14 +73,6 @@
 			path = AnimationProvider;
 			sourceTree = "<group>";
 		};
-		3EAFCD4121AB088D00949E45 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3EAFCD4221AB089B00949E45 /* SimpleAnimation.json */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		3EB6A11A21AAEF1F00E8BF73 = {
 			isa = PBXGroup;
 			children = (
@@ -106,7 +96,6 @@
 			children = (
 				3E47A1EB21AB3B8900943E80 /* Model */,
 				3E47A1EA21AB3B8500943E80 /* UI */,
-				3EAFCD4121AB088D00949E45 /* Resources */,
 				3EB6A12621AAEF1F00E8BF73 /* AppDelegate.swift */,
 				3EB6A12D21AAEF2200E8BF73 /* Assets.xcassets */,
 				3EB6A12F21AAEF2200E8BF73 /* LaunchScreen.storyboard */,
@@ -194,7 +183,6 @@
 			files = (
 				3EB6A13121AAEF2200E8BF73 /* LaunchScreen.storyboard in Resources */,
 				3EB6A12E21AAEF2200E8BF73 /* Assets.xcassets in Resources */,
-				3EAFCD4321AB089B00949E45 /* SimpleAnimation.json in Resources */,
 				3EB6A12C21AAEF1F00E8BF73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
