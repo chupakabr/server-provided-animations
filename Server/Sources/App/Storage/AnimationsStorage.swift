@@ -12,13 +12,13 @@ final class AnimationsStorage: Service {
 
     // MARK: - Helpers
 
-    private let animationNames: [String] = [
+    private let availableAnimations: [String] = [
         "clouds",
         "fireworks"
     ]
 
     private func loadContent(of filename: String) -> String? {
-        guard self.animationNames.contains(filename) else { return nil }
+        guard self.availableAnimations.contains(filename) else { return nil }
 
         let bundle = Bundle(for: AnimationsStorage.self)
         guard let filepath = bundle.path(forResource: filename, ofType: "json") else { return nil }
