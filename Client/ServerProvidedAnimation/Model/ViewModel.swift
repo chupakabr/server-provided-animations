@@ -26,9 +26,9 @@ final class ViewModel: ViewModelProtocol {
 
     // MARK: - ViewModelProtocol
 
-    var animationModel: LOTComposition?
+    private(set) var animationModel: LOTComposition?
 
-    var availableHashtags: [String] = [
+    let availableHashtags: [String] = [
         "clouds",
         "fireworks",
         "nonexisting"
